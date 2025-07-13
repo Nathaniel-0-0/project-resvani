@@ -1,0 +1,247 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: flex-start; /* 👈 moves content to the left */
+  align-items: center;
+  z-index: 100;
+}
+
+.nav-logo-wrapper {
+  margin-left:3000px; /* 👈 adjust this to move logo right */
+}
+
+.nav-logo {
+  width: 100px;
+  height: auto;
+  filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.4));
+}
+
+.build-main {
+  padding: 80px 20px;
+}
+
+.build-title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-shadow: 0 0 15px red;
+}
+
+.build-image {
+  max-width: 90vw;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+.specs {
+  margin: 40px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.specs h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.specs ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.specs li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #ccc;
+  border-left: 3px solid red;
+  padding-left: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #777;
+  font-size: 13px;
+  font-family: 'Orbitron', sans-serif;
+  border-top: 1px solid #222;
+}
+
+button {
+  background-color: #8B0000;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 14px rgba(139, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #a10000;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 8px rgba(139, 0, 0, 0.5);
+}
+.build-hero {
+  padding: 80px 20px 40px;
+  text-align: center;
+  background: linear-gradient(to bottom, #111, black);
+  color: white;
+}
+
+.build-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 0 0 12px red;
+  margin-bottom: 10px;
+}
+
+.build-hero p {
+  font-size: 1rem;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+.build-image-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.build-image-wrapper {
+  border: 2px solid rgba(255, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+  background: #0a0a0a;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.1);
+  max-width: 90vw;
+}
+
+.build-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.specs-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 40px 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
+}
+
+.specs-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.specs-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.specs-card li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #ccc;
+  border-left: 3px solid red;
+  padding-left: 12px;
+}
+.build-split {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+
+.build-left,
+.build-right {
+  flex: 1 1 400px;
+}
+
+.build-image-wrapper {
+  border: 2px solid rgba(255, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+  background: #0a0a0a;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.build-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.specs-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 40px 30px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+.specs-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.specs-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.specs-card li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #ccc;
+  border-left: 3px solid red;
+  padding-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .build-split {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+}
